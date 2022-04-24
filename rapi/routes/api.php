@@ -26,3 +26,6 @@ Route::get('/chartdata', [ChartController::class, 'onAllSelect']);
 
 //Client Review Route
 Route::get('/clientreview', [ClientReviewController::class, 'onAllSelect']);
+
+//Contact Route
+Route::get('/contact', [ContactController::class, 'onAllSelect']);
